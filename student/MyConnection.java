@@ -15,7 +15,7 @@ public class MyConnection {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//establish Connection
-			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system","root","root");
+			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system","root","root1234");
 			return connection;
 			
 		}
